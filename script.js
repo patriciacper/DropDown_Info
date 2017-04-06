@@ -13,8 +13,13 @@ $(document).ready(function () {
         }
         
     });
+    
+    $(document).keyup(function(e) {
+        if (e.keyCode == 27) { 
+            $('div').removeClass('showIt');
+        }
+    });
 });
 
 //Click Outside closes
-//Click on Other closes
 //Esc closes
