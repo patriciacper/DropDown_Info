@@ -1,0 +1,22 @@
+h1 {
+    margin-bottom: 5px;
+    width: 15%;
+}
+
+.dropDown {
+    width: 30%;
+    background-color: beige;
+    padding: 15px;
+    display: none;
+}
+
+.dropDown p {
+    margin: 0;
+    
+}
+
+.showIt {
+    display: block;
+}
+
+/*CSS Transition Animation*/
