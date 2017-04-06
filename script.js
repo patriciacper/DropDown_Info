@@ -2,9 +2,16 @@ $(document).ready(function () {
     
     $('h1').on('click', function() {
         console.log('It Works');
-        $(this).siblings('.dropDown').first().toggleClass('showIt');
+        
+        if ($('div').hasClass('showIt')) {
+            $('div').removeClass('showIt');
+            
+        } else {
+//            $('.showIt').removeClass('showIt');
+            $(this).next('.dropDown').addClass('showIt');    
+        }
+        
     });
-    
 });
 
 
