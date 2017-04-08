@@ -6,17 +6,11 @@ h1 {
 .dropDown {
     width: 30%;
     background-color: beige;
-/*    display: none;*/
-
-/*
-    animation-name: open;
-    animation-duration: 1.2s;
-    animation-iteration-count: 1;
-    transition-timing-function: ease-in-out;
-*/
     max-height: 0;
     overflow: hidden;
-    transition: max-height .7s ease-in-out;
+    transition: max-height .6s ease-in-out;
+/* Aparecer por cima do h1 de baixo */
+    position: absolute;
 }
 
 h1:active .dropDrown {
@@ -39,10 +33,8 @@ h1:active .dropDrown {
 
 .showIt {
 /*    display: block;*/
-    width: 30%;
-    background-color: beige;
     max-height: 100px;
-    overflow: hidden;
+    z-index: 9999;
 }
 
 

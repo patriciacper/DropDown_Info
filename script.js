@@ -19,6 +19,7 @@ $(document).ready(function () {
             $('div').removeClass('showIt');
         }
     });
+    
 });
 
 //Click Outside closes
